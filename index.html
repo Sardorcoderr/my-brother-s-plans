@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kundalik Rejalar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ukamning Kundalik Rejalari</h1>
+        </header>
+
+        <!-- Reja qo'shish uchun forma -->
+        <form id="planForm">
+            <input type="text" id="planInput" placeholder="Reja kiriting..." required>
+            <input type="date" id="planDate" required>
+            <button type="submit">Rejani qo'shish</button>
+        </form>
+
+        <!-- Reja ro'yxati -->
+        <ul class="plan-list" id="planList">
+            <!-- Vazifalar bu yerga qo'shiladi -->
+        </ul>
+
+        <!-- Statistik ma'lumotlar -->
+        <div class="stats">
+            <p>Bajarilgan rejalari: <span id="completedCount">0</span></p>
+            <p>Jami rejalari: <span id="totalCount">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
